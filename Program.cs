@@ -21,10 +21,10 @@ List<string> ataqueJogadorDois = new List<string>();
 
 string ataque;
 
-int portaAviao = 1;
-int navioTanque = 0;
-int destroyer = 0;
-int submarino = 0;
+int portaAviao = 5;
+int navioTanque = 4;
+int destroyer = 3;
+int submarino = 2;
 
 int[] posicaoNavio = new int[4];
 
@@ -221,10 +221,10 @@ if (tipoJogo == "2")
 //Jogador2 posiciona seus navios
 if (tipoJogo == "2")
 {
-    portaAviao = 1;
-    navioTanque = 0;
-    destroyer = 0;
-    submarino = 0;
+    portaAviao = 5;
+    navioTanque = 4;
+    destroyer = 3;
+    submarino = 2;
     while (portaAviao > 0 || navioTanque > 0 || destroyer > 0 || submarino > 0)
     {
 
